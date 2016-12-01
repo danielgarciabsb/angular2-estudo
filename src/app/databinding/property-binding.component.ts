@@ -5,7 +5,7 @@ import { Component, Input } from '@angular/core';
   template: `
     {{result}}
   `,
-  styles: []
+  styles: [],
 })
 export class PropertyBindingComponent {
   @Input() result: number = 0;
