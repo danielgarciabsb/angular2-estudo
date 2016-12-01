@@ -11,6 +11,10 @@ export class DatabindingComponent implements OnInit {
 
   numberInterpolation = 2;
 
+  onClicked(value: string) {
+    alert(value);
+  }
+
   onTest() {
     return true;
   }
