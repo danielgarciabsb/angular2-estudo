@@ -3,21 +3,21 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 
-import { AnotherComponent } from './another.component';
+import { DatabindingComponent } from './databinding.component';
 
-describe('AnotherComponent', () => {
-  let component: AnotherComponent;
-  let fixture: ComponentFixture<AnotherComponent>;
+describe('DatabindingComponent', () => {
+  let component: DatabindingComponent;
+  let fixture: ComponentFixture<DatabindingComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ AnotherComponent ]
+      declarations: [ DatabindingComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AnotherComponent);
+    fixture = TestBed.createComponent(DatabindingComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
